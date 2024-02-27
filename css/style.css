@@ -1,0 +1,513 @@
+:root{
+    --main-color:#00c3da
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6,button{
+    font-family: 'Poppins', sans-serif;
+}
+p,span{
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.main-color{
+    color: var(--main-color);
+}
+
+
+/* home */
+
+
+
+.navbar{
+    border: 0.5px;
+}
+
+.logo{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+
+.black {
+    transition: all 0.3s ease-in-out;
+}
+
+.blue {
+    background-color: #eee;
+    height: 80px;
+    color: #000;
+}
+
+.black-bg {
+    background-color: transparent;
+    height: 50px;
+    color: #f7f7f7;
+    
+}
+header #navbarSupportedContent ul:nth-child(7)::after{
+    content: "";
+    border: #eee;
+    width: 1px;
+    height: 48px;
+    background-color: #eee;
+}
+
+/* header {
+    background-image:linear-gradient(#0009,#0009) ,url(../images/bg-image-28.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+} */
+
+/* .slide2 {
+    background-image:linear-gradient(#0009,#0009) ,url(../images/bg-image-29.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+} */
+
+
+header .first-section #carouselExampleIndicators{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+header .first-section h1{
+    font-size: 65px;
+    width: 100%;
+}
+header .first-section p{
+    font-size: 18px;
+}
+header .first-section button{
+    font-size: 14px;
+}
+
+
+header .first-section  #carouselExampleIndicators .carousel-indicator{
+    top: 0;
+} 
+
+
+
+
+header .first-section #carouselExampleIndicators .carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+header .first-section #carouselExampleIndicators .carousel-inner .carousel-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+   
+    background-image:linear-gradient(#0009,#0009) ,url(../images/bg-image-28.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header .first-section #carouselExampleIndicators .carousel-inner .carousel-item .info-home{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    text-align: center;
+
+   
+}
+
+
+header .first-section #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(#0009,#0009) ,url(../images/bg-image-29.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+       
+}
+
+
+header .first-section #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) .info-home{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    text-align: center;
+   
+
+   
+}
+
+
+header .first-section .btn-more{
+    transition: all 0.2s;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #00c3da;
+    
+}
+header .first-section .btn-more:hover{
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+    color: #fff;
+}
+
+header .first-section .btn-contact{
+    color: black;
+    background-color: #fff;
+    padding: 10px 30px;
+    transition: all 0.2s;
+}
+
+header .first-section .btn-contact:hover{
+    color: #fff;
+    background-color: #000;
+    transform: translate(0px,-1px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* about */
+
+.about button{
+    color: black;
+    background-color: #fff;
+    padding: 10px 30px;
+    transition: all 0.2s;
+}
+.about h6{
+    font-size: 13px;
+}
+
+.about p{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+.about button:hover{
+    color: #fff;
+    background-color: #000;
+    transform: translate(0px,-1px);
+}
+
+
+
+
+
+
+/* team */
+.teams{
+    border-top: 1px solid #eee;
+}
+.teams .title h2{
+    color:rgba(169, 169, 169, 0.2);
+    font-size: 70px;
+}
+.l-teams{
+    transform: translate(0px,-15px);
+}
+.teams .title .title-layer-teams {
+    font-size: 38px;
+}
+.teams h4 {
+
+    font-size: 18px;
+    margin-block: 10px;
+
+}
+.img-team{
+   overflow: hidden;
+   
+  
+}
+
+ .layer-team{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+   
+    
+    background-color: rgba(0,195,218, 0.6);
+    transition: all 0.5s;
+
+    
+}
+.img-team:hover .layer-team{
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+   
+    
+   
+
+}
+
+.later-team ul li a:hover{
+    color: #fff;
+}
+
+
+
+/* services */
+.services{
+    background-color: #626262;
+}
+.l-services{
+    transform: translate(0px,-15px);
+}
+
+
+.services .title-services h2{
+    color:rgba(169, 169, 169, 0.2);
+    font-size: 70px;
+}
+.services .title-services .title-layer-teams {
+    font-size: 38px;
+
+}
+
+.icon-s{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+.services-header p{
+    font-size: 13px;
+
+}
+
+
+/*Pricing  */
+
+.pricing .title h2{
+    color:rgba(169, 169, 169, 0.2);
+    font-size: 70px;
+}
+.l-teams{
+    transform: translate(0px,-15px);
+}
+.pricing .title .title-layer-teams {
+    font-size: 38px;
+}
+.pricing h4 {
+
+    font-size: 18px;
+    margin-block: 10px;
+
+}
+.pricing{
+    background-color: #f7f7f7;
+}
+.gold-pricing{
+    transform: translate(0px,-30px);
+}
+
+
+
+
+.a-princing h4{
+    font-size: 13px;
+}
+.b-pricing sup{
+    font-size: 30px;
+}
+.b-pricing h2{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -3px;
+   
+
+}
+
+.c-pricing ul::before{
+    content: "";
+    width: 20px;
+    background-color: #626262;
+    height: 1px;
+    box-sizing: border-box;
+}
+
+hr{
+    border: 1px solid #000;
+    width: 150px;
+    
+    
+}
+
+.pricing button{
+    transition: all 0.2s;
+    color: #fff;
+    background-color: #00c3da;
+    
+}
+.pricing button:hover{
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+    color: #fff;
+}
+
+
+
+
+
+/* carosial */
+
+
+
+
+
+
+
+
+
+
+
+.carosail .carosail-main{
+    background-color: #f7f7f7;
+}
+
+.carosail .carosail-main .title-carosail h6{
+    font-size: 13px;
+}
+
+.carosail .carosail-main .img-c{
+    width: 20%;
+    transform: translate(0px,-120px);
+}
+
+.carosail .carosail-main .icon-caros{
+    color: #626262;
+    transition: all 0.2s;
+}
+
+.carosail .carosail-main .icon-caros:hover{
+    color: var(--main-color);
+    transform: translate(10px,0px);
+
+}
+
+.carosail .carosail-main  .carousel-indicators{
+    top: 100%;
+}
+
+.carosail .carosail-main .icon-caros1{
+    color: #626262;
+    transition: all 0.2s;
+}
+
+.carosail .carosail-main .icon-caros1:hover{
+    color: var(--main-color);
+    transform: translate(-10px,0px);
+
+}
+
+.carosail .carosail-main #carouselExampleIndicators2 .carousel-indicators{
+    top: 100%;
+}
+.carosail .carosail-main #carouselExampleIndicators2 .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+
+    
+    
+}
+.carosail .carosail-main .carousel-item .carosial1{
+    background-color: #fff;
+    padding: 75px 100px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    max-width: 750px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+} 
+
+
+
+
+
+
+
+
+.input-contact{
+    width: 70%;
+    border-radius: 0px;
+}
+
+.message-contact{
+    width: 70%;
+    border-radius: 0px;
+}
+
+
+.contact button{
+    transition: all 0.2s;
+    color: #fff;
+    background-color: #00c3da;
+    padding: 10px 30px;
+    
+}
+.contact button:hover{
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+    color: #fff;
+}
+
+.contact .title-contact h2{
+    color:rgba(169, 169, 169, 0.2);
+    font-size: 70px;
+}
+
+.l-contact{
+    transform: translate(0px,-10px);
+}
+.contact .title-contact .title-layer-contacts {
+    font-size: 38px;
+}
+
+.p-contact h4{
+    font-size: 18px;
+}
+
+
+label{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
